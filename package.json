@@ -2,7 +2,9 @@
   "name": "poc-nx",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "prepare": "nvm use"
+  },
   "private": true,
   "devDependencies": {
     "@nrwl/nx-cloud": "latest",
